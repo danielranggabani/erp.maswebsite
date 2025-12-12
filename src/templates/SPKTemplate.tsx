@@ -102,7 +102,7 @@ export const SPKTemplate: React.FC<SPKTemplateProps> = ({
             {/* Kop Surat (Opsional) */}
             {logoUrl && <img src={logoUrl} alt="Logo" className="w-24 h-auto mb-4 mx-auto" />}
 
-            <h1 className="text-xl font-bold text-center mb-6">SURAT PERINTAH KERJA (SPK)</h1>
+            <h1 className="text-xl font-bold text-center mb-6">SURAT PERJANJIAN KERJA (SPK)</h1>
 
             {/* Bagian Nomor dan Tanggal */}
             <p className="text-center mb-10">
@@ -199,7 +199,7 @@ export const SPKTemplate: React.FC<SPKTemplateProps> = ({
                 <h2 className="text-lg font-semibold mb-3">V. PENUTUP</h2>
                 <p className="mb-4">Dengan ditandatanganinya surat ini, kedua belah pihak sepakat atas seluruh isi perjanjian kerja ini tanpa paksaan dari pihak manapun.</p>
                 
-                <p className="text-center mb-8" style={{ marginTop: '1rem' }}>Dibuat di <span className="font-bold">{kota}</span>, tanggal <span className="font-bold">{tanggalTtd}</span></p>
+                <p className="text-center mb-8" style={{ marginTop: '1rem' }}>Dibuat di <span className="font-bold">erp.maswebsite.id</span>, tanggal <span className="font-bold">{tanggalTtd}</span></p>
                 
                 <div className="grid grid-cols-2 text-center gap-4 mt-12" style={{ width: '100%' }}>
                     
@@ -231,8 +231,8 @@ export const SPKTemplate: React.FC<SPKTemplateProps> = ({
                         
                         {/* Nama dan Jabatan di bawah garis */}
                         <div className="mt-6 w-40"> 
-                            <p className="border-t pt-1 font-semibold text-base">{companyName}</p>
-                            <p className="text-sm">Jabatan</p> 
+                            <p className="border-t pt-1 font-semibold text-base">{companyName} - Daniel Rangga</p>
+                            <p className="text-sm">Pemilik Usaha</p> 
                         </div>
                     </div>
 
