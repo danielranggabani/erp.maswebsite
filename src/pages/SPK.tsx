@@ -71,13 +71,13 @@ const useSPKData = () => {
 
     const dummyCompany: Company = {
       id: "dummy-company-id",
-      nama: 'Nama Perusahaan Anda (Default)',
-      alamat: 'Alamat Perusahaan Anda (Default)',
-      rekening: 'Rekening Perusahaan Anda (Default)',
+      nama: 'maswebsite',
+      alamat: 'Desa Tepas, Kecamatan Geneng, Kabupaten Ngawi, Jawa Timur, Indonesia',
+      rekening: 'BCA - 7790616337',
       logo_url: '/download-files/logo.png',
       signature_url: '/download-files/ttd.png',
-      email: 'email@default.com',
-      telp: '081234567890',
+      email: 'admin@maswebsite.id',
+      telp: '6289653789741',
       created_at: new Date().toISOString(),
       updated_at: new Date().toISOString(),
       npwp: null,
@@ -333,7 +333,7 @@ export default function SPK() {
             <div className="container mx-auto p-6 space-y-6">
                 <div className="flex items-center justify-between">
                     <div>
-                        <h2 className="text-3xl font-bold tracking-tight">SPK (Surat Perintah Kerja)</h2>
+                        <h2 className="text-3xl font-bold tracking-tight">SPK (Surat Pejanjiann Kerja)</h2>
                         <p className="text-muted-foreground">
                             Generate dan kelola surat perjanjian kerja
                         </p>
